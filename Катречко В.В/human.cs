@@ -13,8 +13,10 @@ namespace Катречко_В.В
         public string position;
         public virtual void  print ()
         {
+
             name_human = Console.ReadLine();
-            Console.WriteLine($"номер:{name_human} должность {position}");
+            
+            Console.WriteLine($"имя:{name_human} ");
         }
     }
 }

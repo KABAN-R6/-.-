@@ -13,11 +13,10 @@ namespace Катречко_В.В
             m1.show_time = 120;
             m1.print2();
             stagg h1 = new stagg();
+            Console.WriteLine($"в ведите имя ");
             h1.print();
-            
-
             ticket t1 = new ticket();
-            Console.WriteLine($"номер в ведите место ");
+            Console.WriteLine($"в ведите место ");
             t1.number = Convert.ToInt32(Console.ReadLine());
             t1.print1();
 
